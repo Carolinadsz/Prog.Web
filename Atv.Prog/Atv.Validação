@@ -7,12 +7,11 @@ Error: Attribute imagesrcset not allowed on element link at this point.
 Correção: <link rel="preload" as="image" imagesrcset="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png 3840w" imagesizes="100vw" fetchpriority="high">
 
 2°Erro:
-Error: Attribute imagesizes not allowed on element link at this point.
-5503014"/><link rel="preload" as="image" imageSrcSet="/cdn-cgi/image/format=webp,width=640,quality=90/front-st…quality=90/front-static/shared/icons/wikis-icon.png 3840w" imageSizes="100vw" fetchpriority="high"/><link 
-Correção: <link rel="preload" as="image" href="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png" imagesrcset="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png 3840w" imagesizes="100vw" fetchpriority="high">
+Error: Attribute fetchpriority not allowed on element link at this point.
+y="high"/><link rel="preload" as="image" imageSrcSet="/cdn-cgi/image/format=webp,width=1080,quality=80/front-s…e/format=webp,width=1920,quality=80/front-static/pages/home/home-hero.png 2x" fetchpriority="high"/><link 
+Correção: <link rel="preload" as="image" href="/cdn-cgi/image/format=webp,width=1080,quality=80/front-static/pages/home/home-hero.png" imagesrcset="/cdn-cgi/image/format=webp,width=1080,quality=80/front-static/pages/home/home-hero.png 1x, /cdn-cgi/image/format=webp,width=1920,quality=80/front-static/pages/home/home-hero.png 2x" fetchpriority="high">
 
 3°Erro
-Error: Attribute fetchpriority not allowed on element link at this point.
-5503014"/><link rel="preload" as="image" imageSrcSet="/cdn-cgi/image/format=webp,width=640,quality=90/front-st…quality=90/front-static/shared/icons/wikis-icon.png 3840w" imageSizes="100vw" fetchpriority="high"/><link 
-Correção: <link rel="preload" as="image" imagesrcset="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png 3840w" imagesizes="100vw" fetchpriority="high">
-
+Error: Attribute imagesrcset not allowed on element link at this point.
+y="high"/><link rel="preload" as="image" imageSrcSet="/cdn-cgi/image/format=webp,width=640,quality=90/front-st…90/front-static/pages/home/sidekick-desktop-app.png 3840w" imageSizes="100vw" fetchpriority="high"/><link 
+Correção: <link rel="preload" as="image" href="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/pages/home/sidekick-desktop-app.png" imagesrcset="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/pages/home/sidekick-desktop-app.png 1x, /cdn-cgi/image/format=webp,width=3840,quality=90/front-static/pages/home/sidekick-desktop-app.png 2x" imagesizes="100vw" fetchpriority="high">
