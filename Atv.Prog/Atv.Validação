@@ -1,0 +1,18 @@
+Atividade de validação
+Código fonte: notion
+------------------------------------------------------
+1°Erro:
+Error: Attribute imagesrcset not allowed on element link at this point.
+5503014"/><link rel="preload" as="image" imageSrcSet="/cdn-cgi/image/format=webp,width=640,quality=90/front-st…quality=90/front-static/shared/icons/wikis-icon.png 3840w" imageSizes="100vw" fetchpriority="high"/><link 
+Correção: <link rel="preload" as="image" imagesrcset="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png 3840w" imagesizes="100vw" fetchpriority="high">
+
+2°Erro:
+Error: Attribute imagesizes not allowed on element link at this point.
+5503014"/><link rel="preload" as="image" imageSrcSet="/cdn-cgi/image/format=webp,width=640,quality=90/front-st…quality=90/front-static/shared/icons/wikis-icon.png 3840w" imageSizes="100vw" fetchpriority="high"/><link 
+Correção: <link rel="preload" as="image" href="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png" imagesrcset="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png 3840w" imagesizes="100vw" fetchpriority="high">
+
+3°Erro
+Error: Attribute fetchpriority not allowed on element link at this point.
+5503014"/><link rel="preload" as="image" imageSrcSet="/cdn-cgi/image/format=webp,width=640,quality=90/front-st…quality=90/front-static/shared/icons/wikis-icon.png 3840w" imageSizes="100vw" fetchpriority="high"/><link 
+Correção: <link rel="preload" as="image" imagesrcset="/cdn-cgi/image/format=webp,width=640,quality=90/front-static/shared/icons/wikis-icon.png 3840w" imagesizes="100vw" fetchpriority="high">
+
